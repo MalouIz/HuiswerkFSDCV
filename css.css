@@ -1,0 +1,43 @@
+html {background-color: #fdc7ff;}
+body {background-color: #a39df8; padding: 5px;}
+h1   {color: rgb(255, 255, 255);}
+h1{
+margin-left: 200px;
+}
+p    {color: hsl(330, 44%, 10%);}
+ul a{color: white;
+text-decoration: none;
+}
+li{display: inline-block;
+height: 22px;
+width: 100px;
+padding: 12px;
+text-align: center;
+color: white;
+border-left: 2px solid hsl(332, 97%, 66%);
+border-right: 1px solid rgba(128, 0, 128, 0.507);
+background-color: hsl(258, 100%, 84%);
+}
+li:hover{background-color: #ee9090;
+border-style: none;
+}
+header{background-color: hwb(318 38% 0%);
+width: 100%;
+height: 150px;
+}
+footer{
+background-color: hwb(271 27% 0%);
+width: 100%;
+height: 50px;
+padding: 5px;}
+table{
+border-collapse: collapse;
+width: 50%;
+}
+table, th, td {
+border: 2px solid hsl(300, 98%, 49%);
+}
+input[type="text"], input[type="email"], textarea, select, 
+button{display: block;margin: 15px 0px;width: 400px;box-sizing: border-box;border-radius: 4px; box-shadow: inset 2px 2px 5px #12001f;}
+textarea{height: 100px;padding: 5px 4px;}
+button:active{background-color: rgb(255, 0, 234);color: white;border-radius: 4px; box-shadow: inset 2px 2px 5px #ff00c8;}
